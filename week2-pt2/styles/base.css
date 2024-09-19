@@ -9,6 +9,14 @@
     background-color: yellow;
 }
 
+.card {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "partOne partOne partTwo";
+}
+
 .partOne{
     width: 600px;
     margin: auto;
