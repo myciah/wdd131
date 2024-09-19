@@ -1,0 +1,125 @@
+.labels {
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 159, 234);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.labels :hover {
+    background-color: yellow;
+}
+
+.partOne{
+    width: 600px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "A A A"
+    "paragraphA paragraphA imageA"
+    "where where where"
+    "imageB paragraphB paragraphB";
+    grid-area: partOne;
+
+  }
+
+.pOne {
+    font-family: "Lucida Console", "Courier New", serif;
+    grid-area: paragraphA;
+  }
+
+.pTwo {
+    font-family: "Lucida Console", "Courier New", serif;
+    grid-area: paragraphB;
+}
+
+.pictureOne {
+    border: 3px solid #000000;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    grid-area: imageA;
+  }
+
+  .pictureTwo {
+    border: 3px solid #000000;
+    padding: 5px;
+    margin: 5px;
+    width: 175px;
+    grid-area: imageB;
+  }
+
+  .aboutMe {
+    grid-area: A;
+    margin: auto;
+    background-color: rgb(199, 31, 224);
+  }
+
+  .lived {
+    grid-area: where;
+    margin: auto;
+    background-color: rgb(199, 31, 224);
+  }
+
+  .headerOne {
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(199, 31, 224);
+    margin: auto;
+    width: 800px;
+}
+
+.partTwo {
+    border: 1px solid black;
+    width: 200px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "resource"
+    "list"
+    "listTwo"
+    "listThree";
+    grid-area: partTwo;
+}
+
+.resource {
+    grid-area: resource;
+}
+
+.list {
+    grid-area: list;
+}
+.listTwo {
+    grid-area: listTwo;
+}
+.listThree {
+    grid-area: listThree;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "partOne partOne partTwo";
+}
+
+
+
+/*body{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr;
+    gap: 0em; 
+    grid-template-areas: "MainContent MainContent AsideContent";
+
+
+    .a{
+    padding: 2rem;
+    background-color: rgb(104, 104, 104);
+    grid-area: AsideContent;
+}
+}*/
