@@ -55,12 +55,12 @@
 }
 
 .pOne {
-    font-family: "Lucida Console", "Courier New", serif;
+    font-family: "Roboto", sans-serif;
     grid-area: paragraphA;
   }
 
 .pTwo {
-    font-family: "Lucida Console", "Courier New", serif;
+    font-family: "Roboto", sans-serif;
     grid-area: paragraphB;
 }
 
