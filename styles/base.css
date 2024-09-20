@@ -5,8 +5,17 @@
     justify-content: space-evenly;
     
 }
+.labels:link {
+    color: #000000;
+}
+.labels:visited {
+    color: blue;
+}
 .labels :hover {
     color: rgb(255, 255, 255);
+}
+.labels:active {
+    color: green;
 }
 
 main {
