@@ -103,6 +103,7 @@
 }
 
 .resource {
+    background-color: rgb(199, 31, 224) ;
     grid-area: resource;
 }
 
