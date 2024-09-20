@@ -6,7 +6,12 @@
     
 }
 .labels :hover {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
 }
 
 .partC {
@@ -19,10 +24,10 @@
     grid-template-areas:
     " patwo"
     "paone";
-}
+} 
 
 .partOne{
-    width: 600px;
+    /*width: 600px;*/
     margin: auto;
     border: 1px solid black;
     padding: 10px;
@@ -42,7 +47,7 @@
     border: 1px solid black;
     padding-top: 100px;
     padding-bottom: 194px;
-    width: 200px;
+    /*width: 200px;*/
     display: grid;
     grid-template-columns: 1fr auto;
     grid-template-rows: 1fr;
