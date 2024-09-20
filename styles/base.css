@@ -5,18 +5,18 @@
     justify-content: space-evenly;
     
 }
-/*.labels:link {
+nav:link {
     color: #000000;
 }
 .labels:visited {
     color: blue;
-}*/
+}
 nav :hover {
     color: rgb(255, 255, 255);
 }
-/*.labels:active {
+nav:active {
     color: green;
-}*/
+}
 
 main {
     max-width: 900px;
