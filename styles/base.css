@@ -8,14 +8,8 @@
 nav:link {
     color: #000000;
 }
-.labels:visited {
-    color: blue;
-}
 nav :hover {
     color: rgb(255, 255, 255);
-}
-nav:active {
-    color: green;
 }
 
 main {
