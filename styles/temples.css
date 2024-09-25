@@ -142,7 +142,7 @@ a{
 }
     
 .navM {
-    position: left;
+    position: static;
     width: 45%;
 }
     
