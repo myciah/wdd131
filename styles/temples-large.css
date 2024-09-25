@@ -12,12 +12,6 @@
         "imgNine imgNine";
     }
 
-    .button{
-        color:rgb(131, 148, 223) ;
-        background-color: rgb(131, 148, 223);
-        border: none;
-    }
-    
     .navM {
         display: block;
         position: static;
