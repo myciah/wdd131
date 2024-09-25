@@ -1,0 +1,161 @@
+
+
+.foot {
+    background-color: rgb(131, 148, 223);
+    color: rgb(0, 0, 0);
+    grid-area: foot;
+}
+
+.lastPar {
+    display: flex;
+    justify-content: center;
+}
+
+.lastPara {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: grid;
+    justify-content: center;
+    grid-area: home;
+}
+
+img {
+    width: 250px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(131, 148, 223);
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "headingOne navLink"
+}
+
+main {
+    font-family: "Roboto", sans-serif;
+    max-width: 270px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "home"
+    "imgOne"
+    "imgTwo"
+     "imgThree"
+    "imgFour"
+    "imgFive" 
+    "imgSix"
+    "imgSeven"
+    "imgEight" 
+    "imgNine";
+}
+
+
+.imgOne {
+    grid-area: imgOne;
+}
+
+
+.imgTwo {
+    grid-area: imgTwo;
+}
+
+
+.imgThree {
+    grid-area: imgThree;
+}
+
+
+.imgFour {
+    grid-area: imgFour;
+}
+
+
+.imgFive {
+    grid-area: imgFive;
+}
+
+
+.imgSix {
+    grid-area: imgSix;
+}
+
+
+.imgSeven {
+    grid-area: imgSeven;
+}
+
+
+.imgEight {
+    grid-area: imgEight;
+}
+
+
+.imgNine {
+    grid-area: imgNine;
+}
+
+nav {
+    color: #ffffff;
+    grid-area: navLink;
+    padding-top: 2rem;
+}
+
+h1 {
+    padding-top: 5px;
+    grid-area: headingOne;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    color: black;
+    font-size: 1.4rem;
+}
+    
+.navbar{
+    align-items: center;
+}
+    
+    
+.hamburgerM{
+    padding-right: 2rem;
+}
+    
+.hamburgerM .line{
+    display: block;
+    width:2.5rem;
+    height: 2px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 0, 0);
+}
+    
+.navM {
+    position: left;
+    width: 45%;
+}
+    
+.navM a {
+    display: block;
+    text-align: center;
+}
+    
+.navM a:hover{
+    color: rgb(223, 251, 219);
+}
+    
+.hide {
+    display: none;
+}
+    

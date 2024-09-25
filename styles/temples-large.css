@@ -1,0 +1,54 @@
+@media screen and (min-width: 650px) {
+    main {
+        max-width: 600px;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "home home"
+        "imgOne imgTwo"
+        "imgThree imgFour"
+        "imgFive imgSix"
+        "imgSeven imgEight"
+        "imgNine imgNine";
+    }
+
+    .button{
+        color:rgb(131, 148, 223) ;
+        background-color: rgb(131, 148, 223);
+        border: none;
+    }
+    
+    .navM {
+        display: block;
+        position: static;
+        width: auto;
+        margin-right:20px;
+        background: none;
+    }
+    .navM a{
+        display: inline-block;
+        padding: 20px;
+    }
+    .navM a:hover{
+        color: rgb(223, 251, 219);
+    }
+    .hamburgerM{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "home home home"
+        "imgOne imgTwo imgThree"
+        "imgFour imgFive imgSix"
+        "imgSeven imgEight imgNine";
+    }
+}
+

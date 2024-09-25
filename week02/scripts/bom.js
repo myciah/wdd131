@@ -5,10 +5,11 @@ const list = document.querySelector('ul');
 const li = document.createElement('li');
 
 const deleteButton = document.createElement('button')
+deleteButton.textContent = 'X';
 
 li.textContent = input.vaule;
 
-deleteButton.textContent = 'X';
+
 
 li.append(deleteButton);
 
