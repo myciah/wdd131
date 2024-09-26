@@ -29,6 +29,9 @@
     .hamburgerM{
         display: none;
     }
+    .button {
+        display: none;
+    }
     
 }
 
