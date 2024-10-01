@@ -113,17 +113,22 @@ main {
 
 .resource {
     background-color: rgb(199, 31, 224) ;
+    margin: auto;
+    padding: 3px;
     grid-area: resource;
 }
 
 .list {
     grid-area: list;
+    padding: 5px;
 }
 .listTwo {
     grid-area: listTwo;
+    padding: 5px;
 }
 .listThree {
     grid-area: listThree;
+    padding: 5px;
 }
 
 .foot {
