@@ -5,12 +5,15 @@
     justify-content: space-evenly;
     
 }
-nav:link {
+.labels :hover {
+    color: rgb(255, 255, 255);
+}
+/*nav:link {
     color: #000000;
 }
 nav :hover {
     color: rgb(255, 255, 255);
-}
+}*/
 
 main {
     max-width: 900px;
