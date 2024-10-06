@@ -3,8 +3,7 @@
         display: none;
     }
     .solidLine {
-        border: 10px solid blue;
-        border-radius: 5px;
+        border: 10px solid black;
         
     }
     .info, .funct {
@@ -17,11 +16,14 @@
         /*border: 5px solid blue;*/
         max-width: 550px;
         gap: 0px;
-        background-color: lightgray;
+        background-color: rgb(241, 241, 241);
         font-family: "Roboto", sans-serif;
     }
     .lineBreak {
-        border: 1px solid black;
+        border: .5px solid black;
+    }
+    .weather {
+        width: 30px;
     }
 
 }
@@ -35,7 +37,7 @@
 
 
 header, footer {
-    background-color: red;
+    background-color: rgb(169, 19, 19);
     text-align: center;
 }
 
