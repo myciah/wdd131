@@ -71,7 +71,7 @@
         display: none;
     }
     .cloud ::after {
-        content: ⛅;
+        content: "⛅";
 
     }
     main {
