@@ -10,7 +10,7 @@
         text-align: center;
     }
     img {
-        width: 550px;
+        width: 480px;
     }
     main {
         /*border: 5px solid blue;*/
@@ -81,13 +81,6 @@
 
 }
 
-
-header, footer {
-    background-color: rgb(169, 19, 19);
-    color: white;
-    text-align: center;
-}
-
 @media screen and (min-width: 1400px) {
     .placeone {
         display: none;
@@ -131,3 +124,8 @@ header, footer {
 
 }
 
+header, footer {
+    background-color: rgb(169, 19, 19);
+    color: white;
+    text-align: center;
+}
