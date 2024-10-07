@@ -23,7 +23,10 @@
         border: .5px solid black;
     }
     .weather {
-        width: 30px;
+        width: 100px;
+    }
+    .cloud {
+        display: none;
     }
 
 }
@@ -49,6 +52,7 @@
         color: white;
         text-align: left;
         padding-left: 10px;
+        margin-right: 10px;
         
     }
     .info p {
@@ -64,10 +68,12 @@
         opacity: .6;
     }
     .weather {
-        width: 25px;
+        display: none;
+    }
+    .cloud {
         position: absolute;
-        bottom: 159px;
-        right: 16px;
+        right: 75px;
+        bottom: 158.5px;
     }
     main {
         margin: auto;
