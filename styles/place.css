@@ -42,6 +42,7 @@
         background-color: white;
         width: 250px;
         text-align: right;
+        opacity: .6;
     }
     h2 {
         background-color: black;
@@ -60,9 +61,13 @@
         background-color: white;
         width: 250px;
         text-align: right;
+        opacity: .6;
     }
     .weather {
         width: 25px;
+        position: absolute;
+        bottom: 159px;
+        right: 16px;
     }
     main {
         margin: auto;
@@ -111,8 +116,6 @@ header, footer {
     }
     .weather {
         width: 25px;
-        position: absolute;
-        right: 0px;
     }
     main {
         margin: auto;
