@@ -36,9 +36,9 @@
 }
 
 @media screen and (min-width: 650px) {
-    :root {
+    /*:root {
         background-color: rgb(241, 241, 241);
-    }
+    }*/
     .placeone {
         display: none;
     }
@@ -137,7 +137,8 @@ header, footer {
     text-align: center;
 }
 
+
 :root {
-    background-color: rgb(241, 241, 241);
-    font-family: "Roboto", sans-serif;
-}
+    --background-color: rgb(241, 241, 241);
+    --font-family: "Roboto", sans-serif;;
+  }
