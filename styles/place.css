@@ -70,10 +70,9 @@
     .weather {
         display: none;
     }
-    .cloud {
-        position: absolute;
-        right: 75px;
-        bottom: 158.5px;
+    .cloud ::after {
+        content: ⛅;
+
     }
     main {
         margin: auto;
