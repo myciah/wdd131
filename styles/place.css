@@ -19,10 +19,10 @@
         /*background-color: rgb(241, 241, 241);*/
         font-family: "Roboto", sans-serif;
     }
-    /*:root {
+    :root {
         background-color: rgb(241, 241, 241);
         font-family: "Roboto", sans-serif;
-    }*/
+    }
     .lineBreak {
         border: .5px solid black;
     }
@@ -139,6 +139,6 @@ header, footer {
 
 
 :root {
-    --background-color: rgb(241, 241, 241);
-    --font-family: "Roboto", sans-serif;;
+    background-color: rgb(241, 241, 241);
+    font-family: "Roboto", sans-serif;;
   }
