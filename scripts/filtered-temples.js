@@ -117,11 +117,15 @@ let temple = "";
   for (let i = 0; i < temples.length; i++) {
     // console.log(temples[i].templeName);
     //  document.getElementById("temple-cards").innerHTML = temples[i].location;
-    temple = [temples[i].templeName, temples[i].location, temples.dedicated[i], temples.area[i]];
-    templeFormat = formattedString = ''
-    document.getElementById("temple-cards").innerHTML = templeFormat;
+    let temple = [temples[i].templeName, temples[i].location, temples[i].dedicated, temples[i].area];
+    let templeFormat = 'Location: ${temples[i].location} Dedicated: ${temples[i].dedicated}';
+    //document.getElementById("temple-cards").innerHTML = temple[0];
 
     };
+
+    const cards = `${templeName} ${location} ${dedicated} ${area} ${imageUrl}!`;
+    document.getElementById("temple-cards").innerHTML = cards;
+
 
 //   document.getElementById("temple-cards").innerHTML = temples[0];
   
