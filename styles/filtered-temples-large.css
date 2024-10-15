@@ -1,6 +1,6 @@
 @media screen and (min-width: 650px) {
     main {
-        max-width: 600px;
+        justify-content: center;
         grid-template-columns: 1fr auto;
         grid-template-rows: 1fr;
         grid-template-areas:
@@ -34,11 +34,11 @@
         display: none;
     }
     
-}
+} 
 
 @media screen and (min-width: 1000px) {
     main {
-        max-width: 1000px;
+        justify-content: center;
         display: grid;
         grid-template-columns: 1fr auto;
         grid-template-rows: 1fr;
@@ -46,7 +46,8 @@
         "home home home"
         "imgOne imgTwo imgThree"
         "imgFour imgFive imgSix"
-        "imgSeven imgEight imgNine";
+        "imgSeven imgEight imgNine"
+        "imgTen imgEleven imgEleven";
     }
 }
 

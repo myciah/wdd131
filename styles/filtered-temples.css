@@ -6,6 +6,7 @@
     grid-area: foot;
 }
 
+
 .lastPar {
     display: flex;
     justify-content: center;
@@ -14,7 +15,7 @@
 .lastPara {
     display: flex;
     justify-content: center;
-}
+} 
 
 h2 {
     display: grid;
@@ -24,7 +25,8 @@ h2 {
 
 img {
     width: 250px;
-    margin: auto;
+    height: 175px;
+    margin: 10px;
 }
 
 header {
@@ -65,8 +67,8 @@ main {
 .sectionOne {
     grid-area: imgOne;
     border: solid black 1px;
+    
 }
-
 
 .sectionTwo {
     grid-area: imgTwo;
@@ -123,7 +125,7 @@ main {
 .sectionEleven {
     grid-area: imgEleven;
     border: solid black 1px;
-}
+} 
 
 nav {
     color: #ffffff;
