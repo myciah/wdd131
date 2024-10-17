@@ -113,24 +113,12 @@ button.addEventListener('click', () => {
       }
   ];
 
-//   for (let i = 0; i < temples.length; i++) {
-//     //  document.getElementById("temple-cards").innerHTML = temples[i].location;
-//     let temple = [temples[i].templeName, temples[i].location, temples[i].dedicated, temples[i].area];
-//     let templeFormat = 'Location: ${temples[i].location} Dedicated: ${temples[i].dedicated}';
-//     //document.getElementById("temple-cards").innerHTML = temple[0];
-
-//     };
+  const filteredData = temples.filter(temples => {
+    return temples.dedicated >= 25;
+  });
+  document.getElementById("oldTemples").innerHTML = filteredData
+  console.log(filteredData);
 
 
-
-    for (let i = 0; i < temples.length; i++) {
-        let temple = [temples[i].templeName, temples[i].location, temples[i].dedicated, temples[i].area, temples[i].imageUrl];
-        for (let j = 0; j < temple.length; j++) {
-            document.getElementById("temple" + i + j).innerHTML = temple[j];
-            document.getElementById("temple" + i + "4").src = temple[4]
-            document.getElementById("temple" + i + "4").alt = temple[0]
-        }
-
-    }
-
-
+  
+document.getElementById("oldTemples").innerHTML = result

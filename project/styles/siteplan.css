@@ -1,0 +1,14 @@
+header, footer {
+    background-color: rgb(238, 160, 233);
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    background-color: rgb(218, 84, 209);
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    width: 300px;
+}
