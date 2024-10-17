@@ -117,15 +117,15 @@ button.addEventListener('click', () => {
      temples[i].dedicated = temples[i].dedicated.split(", ");
     //  document.getElementById("newTemples00").innerHTML = temples[0].dedicated[0];
  }
- const filtered = temples.filter(e => e.dedicated[0] <= 1900)
+ const filtered = temples.filter(e => e.dedicated[0] >= 2000)
  console.log(filtered)
 
  for (let i = 0; i < filtered.length; i++) {
    let temp = [filtered[i].templeName, filtered[i].location, filtered[i].dedicated, filtered[i].area, filtered[i].imageUrl];
    for (let j = 0; j < temp.length; j++) {
-      document.getElementById("oldTemples" + i + j).innerHTML = temp[j];
-      document.getElementById("oldTemples" + i + "4").src = temp[4]
-      document.getElementById("oldTemples" + i + "4").alt = temp[0]
+      document.getElementById("newTemples" + i + j).innerHTML = temp[j];
+      document.getElementById("newTemples" + i + "4").src = temp[4]
+      document.getElementById("newTemples" + i + "4").alt = temp[0]
    }
  }
 
