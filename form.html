@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="Myciah Russell">
+            <meta name="description" content="WDD131 - Dynamic Web Fundamentals - Myciah Russell - Form">
+            <title>WDD 131 - Dynamic Web Fundamentals - Myciah Russell</title>
+            <link rel="stylesheet" href="styles/form.css">
+            <script defer src="scripts/form.js"></script>
+    
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+        
+        </head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+        <main>
+            <form method="get" action="review.html" class="productReview">
+                <fieldset>
+                <label>Product Name <select name="subject" id="choose" required>
+                    <option value="" >Select a Product ... &#9662;</option>
+                    <option value="">XXX</option>
+                    <option value="">XXX</option>
+                    <option value="">XXX</option>
+                    <option value="">XXX</option>
+                    <option value="">XXX</option>
+                    <option value="">XXX</option>
+                    <option value="">XXX</option>
+                    <option value="">XXX</option>
+                </select></label>    
+                
+                <div>Overall Rating</div>
+                        <label><input type="radio" name="star" id="starOne" required>&star;</label>
+                        <label><input type="radio" name="star" id="starTwo" required>&star; &star;</label>
+                        <label><input type="radio" name="star" id="starThree" required>&star; &star; &star;</label>
+                        <label><input type="radio" name="star" id="starFour" required>&star; &star; &star; &star;</label>
+                        <label><input type="radio" name="star" id="starFive" required>&star; &star; &star; &star; &star;</label>
+                
+                
+                <label>Date of Installation <input type="date" name="installDate" id="dateInstalled" required></label>
+
+                <div>Useful Features</div>
+                        <label><input type="checkbox" name="" value="yes" id="uOne">YYY</label>
+                        <label><input type="checkbox" name="" value="yes" id="uTwo">YYY</label>
+                        <label><input type="checkbox" name="" value="yes" id="uThree">YYY</label>
+                        <label><input type="checkbox" name="" value="yes" id="uFour">YYY</label>
+                   
+                <div>Written Review</div>
+                        <textarea name="review" id="rev"></textarea>
+
+                <label>User Name<input type="text" name="fname" id="fir"></label>
+
+                <input type="submit" value="Post Review">
+            </fieldset>
+            </form>
+                
+            </main>
+
+
+    <footer class="foot">
+        <p class="lastPar"> &copy; <span id="currentyear"></span> Myciah Russell Idaho </p>
+        <p class="lastPara"> Last Modification: <span id="lastModified"> </span></p>
+    </footer>
+</body>
+</html>
+
