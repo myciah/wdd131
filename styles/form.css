@@ -33,6 +33,10 @@ main {
     border: solid rgb(0, 0, 0);
 }
 
+fieldset{
+    border: none;
+}
+
  .productReview label {
     display: block;
     padding-top: 10px;
