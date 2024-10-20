@@ -36,19 +36,13 @@ const products = [
     }
   ];
 
+  clickCounter();
 
-  let select = document.getElementById("choose");
-  let elmts = ["HTML", "CSS", "JS", "PHP", "jQuery"];
-
-  // Main function
-  function GFG_Fun() {
-      for (let i = 0; i < products.name.length; i++) {
-          let optn = products.name[i];
-          let el = document.createElement("option");
-          el.textContent = optn;
-          el.value = optn;
-          select.appendChild(el);
-      }
-      res.innerHTML = "Elements Added";
+  function clickCounter() {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("total").innerHTML = localStorage.clickcount;
   }
-
