@@ -7,8 +7,7 @@ document.getElementById("currentyear").textContent = ` ${currentYear}`;
 let text = document.lastModified;
 document.getElementById("lastModified").innerHTML = text
 
-let optionList = document.getElementById('choose').products;
-const products = [
+const options = [
     {
       id: "fc-1888",
       name: "flux capacitor",
@@ -36,9 +35,14 @@ const products = [
     }
   ];
   
-  products.forEach(product =>
-    optionList.add(
-      new Option(products.name, products.id, products.averagerating)
-    )
-  );
+
+
+let optionList = document.getElementById('choose').options;
+
+
+options.forEach(option =>
+  optionList.add(
+    new Option(option.name)
+  )
+);
 
