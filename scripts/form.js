@@ -7,7 +7,7 @@ document.getElementById("currentyear").textContent = ` ${currentYear}`;
 let text = document.lastModified;
 document.getElementById("lastModified").innerHTML = text
 
-
+let optionList = document.getElementById('choose').products;
 const products = [
     {
       id: "fc-1888",
@@ -35,14 +35,10 @@ const products = [
       averagerating: 5.0
     }
   ];
+  
+  products.forEach(product =>
+    optionList.add(
+      new Option(products.name, products.id, products.averagerating)
+    )
+  );
 
-  clickCounter();
-
-  function clickCounter() {
-    if (localStorage.clickcount) {
-      localStorage.clickcount = Number(localStorage.clickcount)+1;
-    } else {
-      localStorage.clickcount = 1;
-    }
-    document.getElementById("total").innerHTML = localStorage.clickcount;
-  }
